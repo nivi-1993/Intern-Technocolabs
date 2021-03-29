@@ -11,3 +11,5 @@ Machine learning models try to use the underlying patterns and relationships in 
 Machine learning intermediate involves handling missing values, non-numeric values, data leakage and more using various techniques like pipelines, XGBoost. By performing these operations, models will be more accurate and useful.
 
 Machine learning explainability - permutation imortance, SHAP values - an acronym from SHapley Additive exPlanations break down a prediction to show the impact of each feature. SHAP values interpret the impact of having a certain value for a given feature in comparison to the prediction we'd make if that feature took some baseline value.
+
+For a feature to be useful, it must have a relationship to the target that your model is able to learn. The output from feature engineering is fed to the predictive models, and the results are cross-validated.
